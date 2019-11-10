@@ -87,7 +87,7 @@ export default class App extends Component {
                 <div style={{ display: "flex", flexDirection: "row" }}>
                   <h5>Address : &nbsp;</h5>
                   <h5>
-                    {this.state.user.results[0].location.street}{","}
+                    {this.state.user.results[0].location.street.number}{","}{this.state.user.results[0].location.street.name}
                     &nbsp;&nbsp;&nbsp;&nbsp;
                   </h5>
                   <h5>
